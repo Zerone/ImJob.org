@@ -1,0 +1,23 @@
+
+form dl dd .description{
+	color:#ccc;
+}
+
+.errors li{
+	list-style:none;
+	padding-left:53px;
+	background:url('/images/icons/warning_48.png') left no-repeat;
+	line-height:48px;
+}
+
+
+form dt{
+	font-weight: bold;
+	margin-top:20px;
+}
+
+input{
+	
+	font-size:15pt;
+	margin-top:1px;
+}

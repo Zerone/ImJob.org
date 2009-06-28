@@ -1,0 +1,37 @@
+<?php echo $this->doctype('XHTML1_TRANSITIONAL'); ?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<?php echo $this->headMeta(); ?>
+		<?php echo $this->headTitle(); ?>
+		<?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/site.css'); ?>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>IM Job</h1>
+				<h4>Nexus for job seekers, employer and employment agencies</h4>
+				
+				<div id="navigation">
+				<ul>
+					<li><a href="/">Home</a>
+					<li><a href="/JobSeeker/">Job Seekers</a></li>
+					<li><a href="/Employer/">Employers</a></li>
+					<li><a href="/EmploymentAgency/">Employment Agencies</a></li>
+				</ul>
+			</div>
+			</div>
+			
+			<div id="content">
+				<?= $this->layout()->content; ?>
+			</div>
+			<div id="footer">
+				<ul>
+					<li><a href="">About us</a></li>
+					<li><a href="">Privacy Policy</a></li>
+					<li><a href="">Terms and Conditions</a></li>
+				</ul>
+				&copy; IMJob.org <?= date('Y'); ?>
+			</div>
+		</div>
+	</body>
+</html>
