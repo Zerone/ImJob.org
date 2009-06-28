@@ -1,0 +1,142 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+html{
+}
+
+body {
+	font : 0.74em Arial, sans-serif;
+	line-height : 1.5em;
+	background : #ffffff;
+	color : #454545;
+}
+
+#container{
+	
+}
+
+#header{
+}
+
+
+#logo-div{
+	text-align:center;
+}
+
+#logo{
+	width:137px;
+	height:45px;
+}
+
+#site-title{
+	height:75px;
+	margin-left:100px;
+	margin-top:18px;
+}
+
+#navigation{
+	background-image:url('/images/theme/navigation_background.png');
+	height:80px;
+}
+
+#navigation ul{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	text-align:center;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style: none;
+	
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:6px;
+	
+	margin-left:2px;
+	margin-right:2px;
+	
+	line-height:80px;
+	height:80px;
+	font-size:18pt;
+}
+
+#navigation ul li a{
+	text-decoration: none;
+	color:black;
+}
+
+#navigation ul li:hover {
+	background:#22afdd;
+}
+
+#navigation a
+{
+	color:white;
+}
+
+#content{
+	background:#eee;
+	color:black;
+	padding:10px;
+	width:870px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footer{
+	text-align:center;
+}
+
+#footer li{
+	list-style: none;
+	display: inline;
+}
+
+#flash-messages{
+	width:400px;
+	padding:10px;
+	border:2px solid #3366CC;
+	background-color:#FFFFCC;
+	color:black;
+	left:51%;
+}
+
+#flash-messages ul{
+	padding-left:20px;
+}
+
+#flash-messages li{
+	padding-left:5px;
+}
+
+#site-toolbar{
+	width:870px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:right;
+	margin-bottom:5px;
+	height:22px;
+	line-height:20px;
+}
+
+.socialbookmark-icon{
+	width:16px;
+	height:16px;
+	border:0px;
+	margin-right:5px;
+	margin-left:5px;
+	vertical-align:middle;
+}
+
+#socialbookmark-icons{
+	text-align:left;
+	float:left;
+}
+
+
